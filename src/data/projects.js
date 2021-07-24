@@ -31,7 +31,7 @@ export default [
   },
   {
     id: 'pj2',
-    gitHubLink:'',
+    gitHubLink:'https://github.com/bbrunocosta/alura-react-immersion-3',
     image: '/assets/wolfkut.svg',
     category: 'UX-Clone',
     title: 'Orkut user interface clone',
