@@ -1,4 +1,4 @@
-import { SiJavascript, SiNextDotJs, SiStyledComponents, SiReact, SiCss3, SiTypescript, SiNodeDotJs } from 'react-icons/si'
+import { SiJavascript, SiNextDotJs, SiSass, SiReact, SiCss3, SiTypescript, SiNodeDotJs } from 'react-icons/si'
 export default [
   {
     id: 'pj4',
@@ -87,5 +87,19 @@ export default [
     objectFit: 'fill',
     type: 'front-end'
   },
-
+  {
+    id: 'pj7',
+    gitHubLink:'https://github.com/bbrunocosta/personal-portifolio',
+    image: '/assets/portifolio.png',
+    category: 'Personal Portifolio',
+    title: 'Site de apresentação em que você está navegando agora!.',
+    stacks: [
+      { ico: <SiNextDotJs />, name: 'NextJS' },
+      { ico: <SiReact />, name: 'React' },
+      { ico: <SiSass />, name: 'Sass' },
+    ],
+    gradient: 'radial-gradient(circle,#FCff0f 0%, #ffffff 50%, #88aaff 100%)',
+    objectFit: 'fill',
+    type: 'front-end'
+  }
 ]
