@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+.Curriculum * {
+	font-family: 'Roboto', sans-serif;
+}
+.Curriculum{
+	box-sizing: border-box;
+	font-size: 62.5%;
+	width: 100vw;
+	margin: 0;
+}
+.Curriculum{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: rgb(55, 53, 47);
+	background-color: white;
+	overflow-y:scroll;
+	position: relative;
+}
+#coverImage {
+	width: 100%;
+	height: 120px;
+	
+}
+#coverImage img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	image-rendering: optimizeQuality;
+
+}
+.Curriculum div.h1{
+	margin-top: 58px;
+}
+.Curriculum h1,
+.Curriculum h2,
+.Curriculum h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+	white-space: normal;
+}
+.Curriculum h1{
+	font-size: 3.0rem;
+}
+.Curriculum h1.name{
+	margin-top: 15px;
+}
+
+.Curriculum h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+.Curriculum h3 {
+	font-size: 2.2rem;
+	margin-top: 4rem;
+	margin-bottom: 1rem;
+	height: fit-content;
+
+}
+.Curriculum p {
+	font-size: 1.6rem;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	line-height: 1.8;
+	word-break: break-word;
+}
+.Curriculum content{
+	padding: 6%;
+	max-width: 900px;
+}
+.Curriculum p.email{
+	font-size: 16px;
+}
+.Curriculum img.avatar{
+	object-fit: cover;
+	object-position: 0  -50px;
+	border-radius: 100%;
+	position: absolute;
+	right: 12%;
+	top: 10.5%;
+}
+.Curriculum content p {
+	font-size: 1.6rem;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	line-height: 1.8;
+}
+.Curriculum a{
+	color:  rgb(55, 53, 47)	;
+}
+.Curriculum a:link {
+	text-decoration: none;
+}
+.name{
+	font-size: 2.5rem;
+	font-weight: 700;
+}
+
+
+.Curriculum p.last{
+	margin-top: 2.5em;
+}
+
+
+@media(min-width: 360px){
+	.Curriculum{
+		font-size: 80%;
+		width: 100vw
+
+	}
+	.Curriculum img.avatar{
+		width: 120px;
+		height: 120px;
+		top: 8%;
+	}
+}
+
+
+@media(min-width: 520px){
+	
+	.h1{
+		display: flex;
+	}
+	.h1 h1{
+		margin-top: 0;
+		margin-right: 1vw;
+	}
+	.Curriculum {
+		font-size: 66.5%;
+	}
+	.Curriculum img.avatar{
+		top: 12%;
+	}
+}
+
+@media(min-width: 700px){
+	.Curriculum {
+		font-size: 90%;
+	}
+	.Curriculum img.avatar{
+		width: 150px;
+		height: 150px;
+	}
+}
+@media(min-width:  1000px){
+	.Curriculum{
+		font-size: 95%;
+		padding: 0;
+
+		content {
+			padding: 0 6px;
+			.h1 {
+				margin-top: 10px;
+			}
+			p {
+				margin: 0
+			}
+			.last{
+				margin-top: 50px;
+			}
+		}
+	}
+	
+	.Curriculum img.avatar{
+		right: 19%;
+		width: 200px;
+		height: 200px;
+	}
+}
+@media(min-width:  1440px){
+	.Curriculum img.avatar{
+		right: 19%;
+		width: 250px;
+		height: 250px;
+	}
+}
+@media(min-width:  2560px){
+	.Curriculum {
+		font-size: 150%;
+		padding: 3% 0;
+		max-width: 50%;
+	}
+	.Curriculum img.avatar{
+		right: 19%;
+		width: 450px;
+		height: 450px;
+	}
+}
+@media print {
+	html{
+		font-size: 60.5%;
+	}
+	.coverImage{
+		width: 100vw;
+	}
+	div.h1{
+		margin-top: 0px;
+	}
+	.Curriculum img.avatar{
+		width: 200px;
+		height: 200px;
+		margin-top: 40px;
+	}
+	.Curriculum p{
+		margin: 0;
+		line-height: 0;
+	}
+	p.url{display:flex}
+	span.portifolio{
+		display:flex;
+	}
+	h3{
+		margin-top: 30px !important;
+	}
+	* ::-webkit-scrollbar {
+			display: none;
+	}
+	.Curriculum{
+		font-size: 95%;
+		padding: 0;
+		content {
+			padding: 0 100px;
+			.h1 {
+				margin-top: 10px;
+			}
+			p {
+				margin: 0
+			}
+			.page-body {
+				.last{
+					margin-top: 50px;
+					text-align: justify;
+					text-justify: inter-word;
+					font-size: 15px;
+				}
+			}
+		}
+	}
+}
+
+
