@@ -1,0 +1,15 @@
+.footer {
+  height: 80px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 8%;
+  img {
+    cursor: pointer;
+    margin: 0 8px;
+    &:hover {
+      opacity: .8;
+    }
+  }
+}

@@ -1,6 +1,20 @@
 import { SiJavascript, SiNextDotJs, SiSass, SiReact, SiCss3, SiTypescript, SiNodeDotJs } from 'react-icons/si'
 export default [
   {
+    id: 'pj8',
+    gitHubLink:'https://github.com/bbrunocosta/jussi-frontend-test',
+    image: '/assets/jussi-screenshot.png',
+    category: 'JÜSSI-FRONTEND-TEST',
+    title: 'Desktop Webpage feita usando React e Sass',
+    stacks: [
+      { ico: <SiReact />, name: 'React' },
+      { ico: <SiSass />, name: 'Sass' }
+    ],
+    gradient: 'radial-gradient(circle,#10A77F 0%, #E7ECEA 50%, #50B29F 100%)',
+    objectFit: 'fill',
+    type: 'front-end'
+  },
+  {
     id: 'pj4',
     gitHubLink:'https://github.com/bbrunocosta/clean-node-api',
     image: '/assets/nede-js-typescript.jpg',

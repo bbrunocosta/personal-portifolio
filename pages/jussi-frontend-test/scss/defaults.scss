@@ -1,0 +1,40 @@
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500;
+    -webkit-font-smoothing: antialiased;
+  }
+  html {
+    --green-jussi: #03FFA5; 
+    --pink-jussi: #EE0E7D;
+    --grey: #F2F2F2;
+    --dark-grey:#5B5B5B;
+  }
+  a {
+    text-decoration: none;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  input {
+    outline: none
+  }
+  button {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  h2 {
+    font-size: 32px;
+    font-weight: bold;
+    span{
+      color: var(--green-jussi);
+    }
+  }
+  #root {
+    background-color: white;
+    height: 100vh;
+  }

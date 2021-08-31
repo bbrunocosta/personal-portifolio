@@ -10,10 +10,8 @@
     "build": "next build"
   },
   "dependencies": {
-    "@zeit/next-sass": "^1.0.1",
     "bootstrap": "^5.0.0-beta3",
     "next": "^11.0.1",
-    "node-sass": "5.0.0",
     "react": "^17.0.2",
     "react-accessible-accordion": "^3.0.1",
     "react-animate-on-scroll": "^2.1.5",
@@ -38,6 +36,7 @@
     "react-tilt": "^0.1.4",
     "react-video-tag": "0.0.10",
     "react-visibility-sensor": "^5.1.1",
+    "sass": "^1.38.2",
     "slick-carousel": "^1.8.1"
   }
 }

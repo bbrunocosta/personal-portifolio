@@ -1,0 +1,49 @@
+.keep-in-touch {
+  padding: 136px;
+  color: white;
+  height: 436px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  h2 {
+    color:white;
+    width: 550px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+  }
+  div {
+    position: relative;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    input {
+      color: white;
+      font-size: 16px;
+      font-weight: 500;
+      background-color: transparent;
+      border: none;
+      border-bottom: 1px solid var(--green-jussi);
+      height: 60px;
+      width: 100%;
+      &::placeholder {
+        color: white;
+        font-size: 16px;
+        font-weight: 500;
+      }
+  
+    }
+    button {
+      position: absolute;
+      right: 0;
+      color: var(--green-jussi);
+      &:hover {
+        opacity: .8;
+      }
+    }
+  }
+  
+}

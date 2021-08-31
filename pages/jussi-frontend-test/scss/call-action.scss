@@ -1,0 +1,34 @@
+.call-action {
+  height: 480px;
+  background-color: var(--pink-jussi);
+  color: white;
+  padding: 136px 282px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  h2 {
+    color:white;
+    max-width: 676px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    text-transform: uppercase;
+    size: 32px;
+    line-height: 40px;
+  }
+  label {
+    margin: 32px 0 8px;
+  }
+  a {
+    color: white;
+    text-transform: lowercase;
+    font-weight: 700;
+    font-size: 32px;
+    size: 32px;
+    line-height: 40px;
+    &:hover {
+      opacity: .8;
+    }
+  }
+}
